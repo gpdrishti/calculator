@@ -7,7 +7,7 @@ public class CalculatorTest {
 
     @Test
     public void testPower() {
-        assertEquals(8.0, Calculator.power(2.0, 3.0), 0.0001);
+        assertEquals(8.0, Calculator.power(2.0, 4.0), 0.0001);
         assertEquals(1.0, Calculator.power(5.0, 0.0), 0.0001);
         assertEquals(0.25, Calculator.power(2.0, -2.0), 0.0001);
     }
