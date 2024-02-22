@@ -41,7 +41,7 @@ pipeline {
             }
         }
 
-   stage('Run Ansible Playbook') {
+   stage('Deploy') {
             steps {
                 script {
                     ansiblePlaybook(
